@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Student",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/selom.jpeg",
   location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -80,9 +80,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        
       </>
     ),
   },
@@ -149,7 +147,7 @@ const about = {
         Bachelor of Science in Computer Science.
         Expected May 2026
         GPA: 3.4/4.0
-        
+
         </>,
       },
     ],
