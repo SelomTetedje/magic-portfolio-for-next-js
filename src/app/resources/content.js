@@ -1,19 +1,19 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Selom",
+  lastName: "Tetedje",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Student",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -29,22 +29,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/SelomTetedje",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/selom-tetedje/",
   },
-  {
-    name: "X",
-    icon: "x",
-    link: "",
-  },
+  // {
+  //   name: "X",
+  //   icon: "x",
+  //   link: "",
+  // },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "selomdt52@gmail.com",
   },
 ];
 
@@ -55,8 +55,7 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Selom Tetedje, a junior majoring in Computer Science at <InlineCode>University of Illinois at Chicago</InlineCode>
     </>
   ),
 };
@@ -92,17 +91,18 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "UIC Campus Housing",
+        timeframe: "Aug 2024 - Present",
+        role: "Resident Assistant",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Serve as a peer adviosr, mentor, and overall resource to 62 residents.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Facilitate healthy and supportive community development.
+          </>,
+          <>
+            Implement appropriate crisis response protocols.
           </>,
         ],
         images: [
@@ -116,17 +116,23 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Brooklyn Boulders West Loop",
+        timeframe: "May 2024 - Present",
+        role: "Youth Belay Staff",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Coach up to five children at a time from ages 5 - 13 to improve their climbing technique and provide a safe space for them to have fun.
           </>,
+        ],
+        images: [],
+      },
+      {
+        company: "UIC Recreation and Wellbeing",
+        timeframe: "Mar 2023 - Present",
+        role: "Climbing Wall Attendant",
+        achievements: [
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Ensure patron safety by leading education sessions on climbing wall protocols, maintaining equipment functionality, and vigilantly monitoring surroundings
           </>,
         ],
         images: [],
@@ -138,12 +144,13 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "University of Illinois at Chicago",
+        description: <>
+        Bachelor of Science in Computer Science.
+        Expected May 2026
+        GPA: 3.4/4.0
+        
+        </>,
       },
     ],
   },
