@@ -52,10 +52,13 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Aspiring Software Engineer</>,
   subline: (
+    // <>
+    //   I'm Selom Tetedje, a junior majoring in Computer Science at <InlineCode>University of Illinois at Chicago</InlineCode>
+    // </>
     <>
-      I'm Selom Tetedje, a junior majoring in Computer Science at <InlineCode>University of Illinois at Chicago</InlineCode>
+      I'm Selom Tetedje, a junior majoring in Computer Science at University of Illinois at Chicago
     </>
   ),
 };
@@ -73,13 +76,14 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendly.com/selomdt52/30min",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
+        Hello, I'm Selom Tetedje. I am currently a junior majoring in Computer Science with a minor in Human Hutrition at the University of Illinois at Chicago.
         
       </>
     ),
@@ -105,12 +109,12 @@ const about = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
